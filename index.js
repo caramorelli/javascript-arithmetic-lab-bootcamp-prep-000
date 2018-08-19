@@ -64,6 +64,7 @@ function dec(num) {
 //     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
 //   })
 // })
+
 function makeInt(num) {
   return parseInt(num);
 }
