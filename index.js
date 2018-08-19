@@ -65,7 +65,7 @@ function dec(num) {
 //   })
 // })
 function makeInt(num) {
-  num.parseInt();
+  return parseInt(num);
 }
 
 // describe('preserveDecimal(n)', function() {
@@ -79,5 +79,5 @@ function makeInt(num) {
 // })
 
 function preserveDecimal(num) {
-  num.parseFloat();
+  return parseFloat(num);
 }
